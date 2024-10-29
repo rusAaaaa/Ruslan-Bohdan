@@ -1,0 +1,45 @@
+/* Основные стили страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Темный фон */
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Стили для списка */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    margin: 20px 0;
+}
+
+/* Стили для ссылок */
+a {
+    color: #f0b90b; /* Жёлтый акцент Binance */
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #1f1f1f;
+    border: 2px solid #f0b90b;
+    border-radius: 8px;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(240, 185, 11, 0.2);
+}
+
+a:hover {
+    background-color: #f0b90b;
+    color: #141414; /* Цвет текста на фоне жёлтого */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+    box-shadow: 0 6px 15px rgba(240, 185, 11, 0.4); /* Усиленная тень */
+}
